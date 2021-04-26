@@ -1,0 +1,10 @@
+.alert {
+  width: 50%;
+  background-color: #e1b3e0;
+  color: #52177c;
+  padding: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  border-left: 4px solid #52177c;
+  margin-bottom: 5px;
+}

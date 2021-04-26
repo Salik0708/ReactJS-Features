@@ -1,0 +1,28 @@
+Controlled vs Uncontrolled Components
+
+Note:
+      we recommend using controlled components to implement forms.
+
+Controlled Component:
+      In a controlled component, form data is handled by a React component. 
+      
+Uncontrolled Component:
+      In uncontrolled components, form data is handled by the DOM itself.
+
+---X---X---X---X---X---X---X---X---X---X
+
+Wrap Up and Key Takeaways:
+
+1. Use controlled components whenever possible.
+
+2. Controlled components do not require a form element in order to be considered a controlled component.
+
+3. If a component has an input element that has a value attribute bound to state and an event handler to update said state, it is a controlled component.
+
+4. For pages that have a large number of input elements, it can be cumbersome to work with controlled components.
+
+5. Data flow is uni-directional in controlled components with the state within the component acting as the single source of truth.
+
+6. All state changes within a controlled component should be made via the setState function.
+
+7. Uncontrolled components store their data in the DOM like a traditional HTML input element.

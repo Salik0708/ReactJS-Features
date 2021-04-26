@@ -1,0 +1,9 @@
+Context:
+        Context provides a way to pass data through component tree without having
+        to pass props down manually at every level.
+
+Provider: 
+         Allows us to declare the data that we want available through out our component tree.
+
+Consumer: 
+         Allows any component in the component tree that needs tha data to be able to subscribe to it.

@@ -1,0 +1,7 @@
+About Higher Order Component:
+
+Definition-1:
+Higher Order Component (HOC) - A component (HOC) that renders another component (Regular component)
+
+Definition-2:
+A High Order Component is basically a function that takes a component as an argument and returns a new component with some more functionality. It's much like a High Order Function, but instead of returning a function, it returns a component.

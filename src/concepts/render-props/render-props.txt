@@ -1,0 +1,16 @@
+Render Props:
+The term “render prop” refers to a technique for sharing code between React components using a prop whose value is a function.
+
+Example:
+Considering React-router library, <Route /> holds the behavior of navigating to different pages. It renders the component when the path matches.
+
+<Route path='/page' component={Page} />
+
+const extraProps = { color: 'red' }
+
+<Route path='/page' render={(props) => (
+  <Page {...props} data={extraProps}/>
+)}/>
+
+
+Note: you can use any prop name other than “render” to takes in a function.

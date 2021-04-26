@@ -1,0 +1,5 @@
+Presentational:
+
+Presentational components utilize props, context and can be the syntactically-pretty functional, stateless component. It receives data and callbacks from props. Which can be provided by its container or parent component.
+
+Together, containers and presentational components encapsulate logic and presentation to their prospective components.

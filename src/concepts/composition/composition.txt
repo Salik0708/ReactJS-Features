@@ -1,0 +1,2 @@
+Composition:
+          Creating small and lean components and use them to compose more functionality on top of them.
